@@ -13,11 +13,11 @@ try:
         print(file.read())
 
 except FileNotFoundError:
-    print(sys.exc_info()[0])  #you can throw an exception this if you do not know
+    print(sys.exc_info()[0])  #you can throw an exception like this if you do not know
                               #the error
 
 
-                              #or you can simply test the programme,find the name
+                              #or you can simply TEST the programme,find the name
                               #of the error  and place it after the except line
 
 
